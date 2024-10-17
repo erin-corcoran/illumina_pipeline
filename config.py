@@ -25,10 +25,6 @@ class configuration(object):
 
 ####### SET/ALTER PARAMETERS ############################################################
 
-####### SET HUMAN REFERENCE GENOME TO USE TO REMOVE HUMAN READS ##########################
-### Fill these out if self.remove_human_reads = True
-
-		self.human_reference_sequence = "/Volumes/data-backups-post-doc/stored_files_too_big_for_laptop/SFS-ncov-data/seattle-scan-fastq-files/human-reference-genome/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.bowtie_index"
 
 ####### SET TRIMMING PARAMETERS #########################################################
 ### Fill these out if self.trim = True
